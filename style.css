@@ -52,3 +52,10 @@ label {
   -webkit-text-stroke-color: white;
   font-size: 16pt;
 }
+
+.mask {
+  position: fixed;
+  /*-webkit-mask-image: radial-gradient(ellipse, white 10%, rgba(0, 0, 0, 0.5) 50%);*/
+  mask-image: radial-gradient(ellipse, black 10%, rgba(0,0,0,0.5) 50%);
+  z-index: 500;
+}
